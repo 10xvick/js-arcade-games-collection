@@ -1,3 +1,3 @@
 # gamejs
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsgames)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/arcade)
