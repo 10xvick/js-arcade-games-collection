@@ -99,7 +99,7 @@ class logics {
         return;
       }
       game.score > game.highscore && (game.highscore = game.score);
-      canvas.HUD.innerText = `score:${game.score} | highscore:${game.highscore} afjwe ${this.gobject.player.actions.jump.done}`;
+      canvas.HUD.innerText = `score:${game.score} | highscore:${game.highscore}`;
     },
   };
 
