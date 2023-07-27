@@ -46,7 +46,7 @@ const Games = () => {
 
   return (
     <div className="flex flex-col h-screen bg-gray-800 text-white">
-      <header className="flex justify-center items-center h-6 bg-gray-900">
+      <header className="flex justify-center contents-center h-6 bg-gray-900">
         <span className="font-bold">
           {selectedGame ? selectedGame : 'JS ARCADE COLLECTION'}
         </span>
