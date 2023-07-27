@@ -105,15 +105,10 @@ class logics {
 
   generator = {
     floor: function ({ obstacle, canvas }) {
-      const passway_w = (canvas.width * helper.randomrange(4, 2)) / 8;
+      const passway_w = canvas.width / 5;
       const distance =
         (obstacle.container.at(-1)?.y || canvas.height) -
         canvas.height / obstacle.total;
-      console.log(
-        Array(100)
-          .fill(0)
-          .map((e) => helper.randomrange(3, 0))
-      );
       return {
         x: (canvas.width - passway_w) / 2,
         y: distance,

@@ -68,7 +68,7 @@ class logics {
           actions.jump();
           return;
         }
-        console.log(1);
+
         game.over = false;
         game.score = 0;
         game.speed = game.initialspeed;
