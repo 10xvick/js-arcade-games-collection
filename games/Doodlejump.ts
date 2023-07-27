@@ -95,7 +95,7 @@ class logics {
       const { game, canvas } = this.gobject;
       if (gameover) {
         game.over = true;
-        canvas.HUD.innerText = `GAME-OVER | score:${game.score}  |  highscore:${game.highscore}`;
+        canvas.HUD.innerText = `GAME-OVER |  score:${game.score}  |  highscore:${game.highscore}`;
         return;
       }
       game.score > game.highscore && (game.highscore = game.score);
